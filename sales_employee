@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="b8613eac-bc41-4097-8d60-3253df5cb805" data-root-id="110107"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="111892">
+          {"debfde7e-e49c-4a21-8198-c06208e441c7":{"roots":{"references":[{"attributes":{"below":[{"id":"110118"}],"center":[{"id":"110120"},{"id":"110124"},{"id":"110139"}],"left":[{"id":"110121"}],"plot_height":500,"plot_width":900,"renderers":[{"id":"110145"}],"title":{"id":"110108"},"toolbar":{"id":"110132"},"toolbar_location":null,"x_range":{"id":"110110"},"x_scale":{"id":"110114"},"y_range":{"id":"110112"},"y_scale":{"id":"110116"}},"id":"110107","subtype":"Figure","type":"Plot"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"110125"},{"id":"110126"},{"id":"110127"},{"id":"110128"},{"id":"110129"},{"id":"110130"},{"id":"110147"}]},"id":"110132","type":"Toolbar"},{"attributes":{"data":{"Sales":[555592,2162629,2103848,674125,785897,2052005,927556,2797929,2189769],"SalesPersonName":["Erik Presley","Frank Roll","Helen Brolin","Ingrid Hendrix","Joan Callins","Leif Shine","Lennart Skoglund","Rob Carsson","Tom Lindwall"],"Title":["President","Sales Representative","Sales Representative","Sales Representative","Sales Coordinator","Sales Manager","Sales Representative","Sales Representative","Sales Representative"],"index":[0,1,2,3,4,5,6,7,8]},"selected":{"id":"111746"},"selection_policy":{"id":"111745"}},"id":"110105","type":"ColumnDataSource"},{"attributes":{},"id":"110112","type":"DataRange1d"},{"attributes":{},"id":"110116","type":"LinearScale"},{"attributes":{"factors":["Erik Presley","Frank Roll","Helen Brolin","Ingrid Hendrix","Joan Callins","Leif Shine","Lennart Skoglund","Rob Carsson","Tom Lindwall"]},"id":"110110","type":"FactorRange"},{"attributes":{},"id":"111745","type":"UnionRenderers"},{"attributes":{"axis":{"id":"110118"},"ticker":null},"id":"110120","type":"Grid"},{"attributes":{"level":"glyph","source":{"id":"110105"},"text":{"field":"Sales"},"text_align":"center","x":{"field":"SalesPersonName"},"y":{"field":"Sales"}},"id":"110139","type":"LabelSet"},{"attributes":{"factors":["Erik Presley","Frank Roll","Helen Brolin","Ingrid Hendrix","Joan Callins","Leif Shine","Lennart Skoglund","Rob Carsson","Tom Lindwall"],"palette":["#a6cee3","#1f78b4","#b2df8a","#33a02c","#fb9a99","#e31a1c","#fdbf6f","#ff7f00","#cab2d6"]},"id":"110141","type":"CategoricalColorMapper"},{"attributes":{"fill_color":{"field":"SalesPersonName","transform":{"id":"110141"}},"line_color":{"value":"white"},"top":{"field":"Sales"},"width":{"value":0.9},"x":{"field":"SalesPersonName"}},"id":"110143","type":"VBar"},{"attributes":{},"id":"111743","type":"CategoricalTickFormatter"},{"attributes":{},"id":"110126","type":"WheelZoomTool"},{"attributes":{"overlay":{"id":"110131"}},"id":"110127","type":"BoxZoomTool"},{"attributes":{},"id":"110128","type":"SaveTool"},{"attributes":{},"id":"110129","type":"ResetTool"},{"attributes":{"data_source":{"id":"110105"},"glyph":{"id":"110143"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"110144"},"selection_glyph":null,"view":{"id":"110146"}},"id":"110145","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"SalesPersonName","transform":{"id":"110141"}},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"top":{"field":"Sales"},"width":{"value":0.9},"x":{"field":"SalesPersonName"}},"id":"110144","type":"VBar"},{"attributes":{"callback":null,"tooltips":"\n        &lt;b&gt;&lt;p style=\"color:@color;\"&gt;@SalesPersonName, @&lt;/p&gt;&lt;/b&gt;\n    "},"id":"110147","type":"HoverTool"},{"attributes":{"source":{"id":"110105"}},"id":"110146","type":"CDSView"},{"attributes":{"text":"Doanh s\u1ed1 b\u00e1n h\u00e0ng c\u1ee7a t\u1eebng nh\u00e2n vi\u00ean"},"id":"110108","type":"Title"},{"attributes":{},"id":"111746","type":"Selection"},{"attributes":{},"id":"111741","type":"BasicTickFormatter"},{"attributes":{},"id":"110114","type":"CategoricalScale"},{"attributes":{},"id":"110125","type":"PanTool"},{"attributes":{},"id":"110122","type":"BasicTicker"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"110131","type":"BoxAnnotation"},{"attributes":{},"id":"110130","type":"HelpTool"},{"attributes":{},"id":"110119","type":"CategoricalTicker"},{"attributes":{"formatter":{"id":"111743"},"ticker":{"id":"110119"}},"id":"110118","type":"CategoricalAxis"},{"attributes":{"axis":{"id":"110121"},"dimension":1,"ticker":null},"id":"110124","type":"Grid"},{"attributes":{"axis_label":"Sales","formatter":{"id":"111741"},"ticker":{"id":"110122"}},"id":"110121","type":"LinearAxis"}],"root_ids":["110107"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('111892').textContent;
+                  var render_items = [{"docid":"debfde7e-e49c-4a21-8198-c06208e441c7","root_ids":["110107"],"roots":{"110107":"b8613eac-bc41-4097-8d60-3253df5cb805"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
