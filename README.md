@@ -1,0 +1,2 @@
+- Our team has 4 people, work together in this project
+- This project got 10 points
